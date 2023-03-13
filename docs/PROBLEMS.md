@@ -6,7 +6,7 @@ Todos os meus problemas foram com a questão da versão da aplicação.
 
 ### PHP e Laravel
 
-A aplicação esta com o Laravel na versão 7 então só tem suporte ao PHP até na versão 7 também, o meu PHP estava na versão mais atual que é a 8. O problema foi resolvido após instalar a versão 7.2.5 do PHP.
+A aplicação esta com o Laravel na versão 7 então só tem suporte ao PHP até na versão 7 também, o meu PHP estava na versão mais atual que é a 8. O problema foi resolvido após instalar a versão 7.2.5 do PHP que é a versão que indicava no `composer.json`.
 
 ### Composer
 
