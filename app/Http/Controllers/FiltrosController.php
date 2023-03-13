@@ -139,7 +139,7 @@ class FiltrosController extends Controller
             ->leftJoin('unidade', 'uni_id', '=', 'unidade.id')
             ->where(function ($query) use ($req, $campos) {
                 foreach ($campos as $campo) {
-                    $query->orWhere($campo, 'like', '%' . $req->pesquisa . '%');
+                    $query->orWhere($campo === 'id' ? 'funcionario.id' : $campo, 'like', '%' . $req->pesquisa . '%');
                 }
             })
             ->paginate();
